@@ -1,0 +1,33 @@
+:root {
+    --darkColor: #04001e;
+    --lightColor: #DFBFBF;
+    --primaryColor: #DB086F;
+}
+
+body {
+    background: var(--darkColor);
+    color: var(--lightColor);
+    font-family: system-ui;
+}
+
+a {
+    color: var(--lightColor);
+}
+
+.wrapper {
+    max-inline-size: 64rem;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+.box {
+    /* border: 5px solid var(--primaryColor); */
+    border: 5px dashed var(--primaryColor);
+    padding: 1rem;
+    counter-increment: flex-items;
+}
+
+.box::after {
+    /* content: 'aasdaf'; */
+    content: counter(flex-items)
+}
