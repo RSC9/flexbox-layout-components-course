@@ -1,0 +1,9 @@
+.flexDirection {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    flex-direction: column;
+    max-block-size: 200px;
+    overflow: auto;
+}
