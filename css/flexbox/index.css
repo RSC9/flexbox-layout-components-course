@@ -2,6 +2,9 @@
 @import './flex-order.css';
 @import './flex-direction.css';
 @import './flex-wrap.css';
+@import './flex.css';
+@import './justify-content.css';
+@import './align-items.css';
 
 :root {
     --darkColor: #04001e;
